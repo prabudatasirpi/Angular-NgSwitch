@@ -1,0 +1,8 @@
+<div class="container">
+<div id="main" [ngSwitch]="color">
+    <div id="color-red" *ngSwitchCase=" 'red' "> You picked red color </div>
+    <div id="color-blue" *ngSwitchCase=" 'blue' "> You picked blue color </div>
+    <div id="color-green" *ngSwitchCase=" 'green' "> You picked green color </div>
+    <div id="color-default" *ngSwitchDefault> Picked again</div>
+</div>
+</div>
